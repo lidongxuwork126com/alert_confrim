@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    background-color: rgba(0, 0, 0, .1);
+    transition: all .5s;
+    display: flex;
+}
+
+.alert_wrap {
+    width: 40%;
+    max-width: 400px;
+    min-width: 300px;
+    margin: auto;
+    height: 150px;
+    border: 6px solid #8AC962;
+    background-color: white;
+}
+
+.alert_top {
+    height: 30px;
+    background-color: #8AC962;
+    color: white;
+    padding: 5px 5px 0;
+    text-align: left;
+}
+
+.close_btn {
+    float: right;
+    cursor: pointer;
+}
+
+.alert_icon{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10px;
+}
+.alert_icon img{
+    width: 50px;
+}
+.alert_content {
+    text-align: left;
+    vertical-align: top;
+    padding-top: 2px;
+    padding-left: 5px;
+    width: 80%;
+    margin: 10px auto 0;
+    display: inline-block;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    /*text-align: center;*/
+    height: 40px;
+    font-size: 14px;
+}
+
+.confirm_btn_wrap {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.confirm_btn {
+    padding: 9px 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: #8AC962;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    color: white;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.confirm_btn:active {
+    background-color: #b1edac;
+}
